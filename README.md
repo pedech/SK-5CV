@@ -17,31 +17,31 @@ Pay attention: keybed pins 2,3,4,5 are octave/section modulation controls,connec
 while pins 1,6,7,8,9,10,11,12 are to code notes from C to B -> connect them to PIND & B00000100 (arduino input 2) , PINB & B10111111 ( arduino inputs 7,8,9,10,11,12 & 13)
 
 
-Keybed        Arduino
+Keybed ->        Arduino
 
-1            input 2
+1 ->            input 2
 
-2            input 3
+2 ->            input 3
 
-3            input 4
+3 ->            input 4
 
-4            input 5
+4 ->            input 5
 
-5            input 6
+5 ->            input 6
 
-6            input 7
+6 ->            input 7
 
-7            input 8
+7 ->            input 8
 
-8            input 9 
+8 ->            input 9 
 
-9            input 10
+9 ->            input 10
 
-10           input 11
+10 ->           input 11
 
-11           input 12
+11 ->           input 12
 
-12           input 13
+12 ->           input 13
 
 
 
