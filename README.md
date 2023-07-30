@@ -10,11 +10,40 @@ It uses an arduino nano to capture played keys on a CASIO SK-5 and output a uniq
 
 ## How to connect ?
 
-Connect ARDUINOs pins 2 to 13 to SK-5 keybed connector. See video to locate it.
+Connect ARDUINOs input pins 2 to 13 to SK-5 keybed connector. See video to locate it.
 
-Pay attention: keybed pins 2,3,4,5 are octave/section modulation controls,connect them to PIND & B01111000
+Pay attention: keybed pins 2,3,4,5 are octave/section modulation controls,connect them to PIND & B01111000 (arduino inputs 3,4,5,6)
 
-while pins 1,6,7,8,9,10,11,12 code notes C to B -> connect them to PIND & B00000100 , which is areduino input 2 , PINB & B10111111 , which are areduino inputs 7,8,9,10,11,12 & 13
+while pins 1,6,7,8,9,10,11,12 are to code notes from C to B -> connect them to PIND & B00000100 (arduino input 2) , PINB & B10111111 ( arduino inputs 7,8,9,10,11,12 & 13)
+
+
+Keybed        Arduino
+
+1            input 2
+
+2            input 3
+
+3            input 4
+
+4            input 5
+
+5            input 6
+
+6            input 7
+
+7            input 8
+
+8            input 9 
+
+9            input 10
+
+10           input 11
+
+11           input 12
+
+12           input 13
+
+
 
 At this point check if the keys are being properly capture using the serial monitor.
 
