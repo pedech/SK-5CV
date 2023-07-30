@@ -3,7 +3,7 @@ Arduino code to implement CV out to a CASIO SK-5 keyboard
 
 Hardware needed: Arduino nano,  MCP4725, Casio SK-5
 
-## What this code does ?
+## What does this code does ?
 
 It uses an arduino nano to capture played keys on a CASIO SK-5 and output a unique voltage for each played key via a MCP4725 DAC.
 
