@@ -3,12 +3,12 @@ Arduino code to implement CV out to a CASIO SK-5 keyboard
 
 Hardware needed: Arduino nano,  MCP4725, Casio SK-5
 
-What this code does ?
+# What this code does ?
 
-It uses an arduino nano to campture played keys on a CASIO SK-5 and output a unique voltage for each played key via a MCP4725 DAC.
+It uses an arduino nano to capture played keys on a CASIO SK-5 and output a unique voltage for each played key via a MCP4725 DAC.
 
 
-#How to connect ?
+# How to connect ?
 
 Connect ARDUINOs pins 2 to 13 to SK-5 keybed connector. See video to locate it.
 
@@ -22,16 +22,16 @@ Next connect the DAC to the Arduino. Connection varies a little depending on you
 
 Check for the voltages out from the DAC. You can adjust them in the code , as each note in the SK-5 has a unique line in the code with its associated voltage our.
 
-I suggest you check the links in the Thaks section for the images I used as reference when I put this together.
+I suggest you check the links in the Thanks section for the images I used as reference when I put this together.
 
-#Video ?
+# Video ?
 
 https://youtu.be/Tevi8k_pdds
 
 I connected the DAC to a KORG Monotron delay CV in.
 
 
-#Thanks To:
+# Thanks To:
 
 Marwan Ghamloush article and code: 
 
@@ -42,6 +42,6 @@ Whoever saved this old UMR midi connection guide for SK-1 (which is the same for
 https://blanc.neocities.org/downloads/UMR2/Forums/Casio%20sk1_umr2.pdf (Download it now, while available)
 
 
-#Final Note: 
+#F inal Note: 
 
-The code is poorly commented, as I did not intend to distribute it. If there is an interest I will improve it.
+The code is poorly commented, as originaly I did not intend to distribute it. If there is an interest I will improve it.
